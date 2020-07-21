@@ -1,0 +1,47 @@
+baseURL = "https://example.com/"
+languageCode = "en"
+defaultContentLanguage = "en"
+title = "Stip"
+theme = "stip-hugo"
+disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
+
+[Author]
+    name = "Vajreshb Balaji"
+    bio = "Data Analyst"
+
+[params.colors]
+    background = "#000000"
+    circle = "#3942ba"
+    foreground = "#c7d0fc"
+    hover = "#cd6cf7"
+
+[params]
+
+    [[params.links]]
+        iconset = "fas"
+        icon = "envelope"
+        title = "E-mail"
+        url = "mailto:contact@vajresh.in"
+        
+    [[params.links]]
+        iconset = "fas"
+        icon = "pencil-alt"
+        title = "Blog"
+        url = "https://bvajresh.substack.com"
+
+    [[params.links]]
+        icon = "github"
+        title = "Github"
+        url = "https://github.com/bvajresh"
+
+    [[params.links]]
+        icon = "twitter"
+        title = "Twitter"
+        url = "https://twitter.com/bvajresh"
+        
+    [[params.links]]
+        icon = "instagram"
+        title = "Instagram"
+        url = "https://instagram.com/bvajresh"
+        
+    
