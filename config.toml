@@ -1,7 +1,7 @@
 baseURL = "https://example.com/"
 languageCode = "en"
 defaultContentLanguage = "en"
-title = "Hallo"
+title = "Vajresh Balaji"
 theme = "hallo-hugo"
 disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
 
@@ -19,14 +19,14 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
         iconset = "fas"
         icon = "envelope"
         title = "E-mail"
-        url = "mailto:contact@vajresh.in"
-    
+        url = "mailto:contact@vajresh.in?subject=Hey%20there%21%20&body=Just%20visited%20your%20website%20and%20wanted%20to%20say%20hello%21"
+
     [[params.links]]
         iconset = "fas"
         icon = "pencil-alt"
         title = "Blog"
         url = "https://bvajresh.substack.com"
-    
+
     [[params.links]]
         iconorigin = "ai"
         iconset = "ai"
